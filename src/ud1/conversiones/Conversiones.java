@@ -1,4 +1,4 @@
-package Conversiones;
+package ud1.conversiones;
 
 public class Conversiones {
     public static void main(String[] args) {

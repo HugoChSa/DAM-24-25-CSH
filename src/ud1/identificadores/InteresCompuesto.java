@@ -1,4 +1,4 @@
-package Identificadores;
+package ud1.identificadores;
 
 import java.util.Scanner;
 
