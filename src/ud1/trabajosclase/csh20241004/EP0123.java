@@ -8,7 +8,7 @@ package ud1.trabajosclase.csh20241004;
  * usuario. El programa mostrará por pantalla el resultado con la unidad de medida adecuada.
  */
 import java.util.Scanner;
-public class ConversionesMasa {
+public class EP0123 {
     public static void main(String[] args) {
         double masaOrigen, masaDestino;
         

@@ -1,7 +1,7 @@
 package ud1.trabajosclase.csh20241004;
 
 import java.util.Scanner;
-public class EjercicioGradosFarenheit {
+public class EP0122 {
     public static void main(String[] args) {
         double farenheit;
 

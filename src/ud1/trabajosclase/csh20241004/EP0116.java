@@ -2,7 +2,7 @@ package ud1.trabajosclase.csh20241004;
 
 import java.util.Scanner;
 
-public class EjercicioDistancias {
+public class EP0116 {
     public static void main(String[] args) {
         double distanciaMM, distanciaCM, distanciaM;
         
