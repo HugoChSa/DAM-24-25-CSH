@@ -1,4 +1,4 @@
-package ud1.trabajosclase;
+package ud1.trabajosclase.csh20241004;
 
 import java.util.Scanner;
 public class EjercicioGradosFarenheit {

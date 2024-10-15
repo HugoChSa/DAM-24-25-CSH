@@ -1,4 +1,4 @@
-package ud1.trabajosclase;
+package ud1.trabajosclase.csh20241004;
 
         /**EP0123_ConversionMasa. Escribe un programa que convierta unidades de masa entre kilogramos y libras o viceversa. El programa solicitará al usuario la cantidad de masa y la unidad
  * de medida origen (kilogramos o libras). 

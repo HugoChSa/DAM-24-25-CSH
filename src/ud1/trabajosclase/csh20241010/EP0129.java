@@ -1,4 +1,4 @@
-package ud1.trabajosclase;
+package ud1.trabajosclase.csh20241010;
 import java.util.Scanner;
 
 
