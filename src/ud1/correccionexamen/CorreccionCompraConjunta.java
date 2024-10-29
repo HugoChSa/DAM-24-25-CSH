@@ -1,4 +1,4 @@
-package ud2.ejercicios;
+package ud1.correccionexamen;
 /*Corrección del ejercicio de la compra conjunta del examen de la unidad 1:
 Tres amig@s deciden juntar el dinero en efectivo que llevan encima para comprar un
 artículo para compartir (por ejemplo, una pelota, un libro, un disco, etc.). Haz un programa
@@ -44,5 +44,6 @@ public class CorreccionCompraConjunta {
         
         // Salida
         System.out.println(mensaje);
+        
     }
 }

@@ -17,7 +17,7 @@ public class E0206 {
     public static void main(String[] args) {
         int numUno;
         int numDos;
-        int numTres;
+        //int numTres;
 
         Scanner sc = new Scanner(System.in);
         System.out.println("Introduce el primer número: ");
@@ -25,7 +25,14 @@ public class E0206 {
         System.out.println("Introduce el segundo número: ");
         numDos = sc.nextInt();
         System.out.println("Introduce el tercer número: ");
-        numTres = sc.nextInt();
+        //numTres = sc.nextInt();
+        sc.close();
+
+        System.out.println("Ahora el programa mostrara los numeros ordenados de mayor a menor: ");
+
+        if (numUno >= numDos) {
+            
+        }
     
         /*  if (numUno >= numDos) {
             if (numDos>=numTres) {
