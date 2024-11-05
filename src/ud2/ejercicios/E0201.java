@@ -1,6 +1,6 @@
 package ud2.ejercicios;
 import java.util.Scanner;
-public class E201 {
+public class E0201 {
     public static void main(String[] args) {
         // Declaración de variables y constantes
         int numero;

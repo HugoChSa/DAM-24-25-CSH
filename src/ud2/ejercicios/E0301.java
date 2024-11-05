@@ -10,16 +10,21 @@ public class E0301 {
     public static void main(String[] args) {
        int num;
 
-       Scanner sc = new Scanner(System.in);
-
+    Scanner sc = new Scanner(System.in);
+    System.out.println("Introduce un número: ");
+    num = sc.nextInt();
+    sc.close();
       
-       do { System.out.println("Introduce un número: ");
-       num = sc.nextInt();
-        sc.close();
-       }
-       while (num > 0 || num < 0);{
-        System.out.println(num%2 == 0 ? "El número es par" : "El número es impar");
-        System.out.println("Su cuadrado es: " + num*num);
+    while (num != 0);{
+        if(num % 2 == 0)
+        System.out.println("Es par");
+        if (num > 0) 
+        System.out.println("Es positivo");
+        System.out.println("El cuadrado es " + Math.pow(num, num));            
+
+
+        System.out.println("Introduce un número: ");
+        num = sc.nextInt();
        }
     
       
