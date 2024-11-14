@@ -1,4 +1,4 @@
-package ud2.ejercicios;
+package ud2.ejercicioscondicionales;
 
 /*Implementar un programa que pida por teclado un número decimal e indique si es un
 número casi-cero que son aquellos, positivos o negativos, que se acercan a 0 por menos de 1

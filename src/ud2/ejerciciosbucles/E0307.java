@@ -1,4 +1,4 @@
-package ud2.ejercicios;
+package ud2.ejerciciosbucles;
 
 /*Escribir todos los múltiplos de 7 menores que 100. */
 public class E0307 {

@@ -1,4 +1,4 @@
-package ud2.ejercicios;
+package ud2.ejerciciosbucles;
 
 /*E0308. Pedir diez números enteros por teclado y mostrar la media. */
 import java.util.Scanner;
