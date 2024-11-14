@@ -3,16 +3,16 @@ package ud1.identificadores;
 public class Identificadores {
     public static void main(String[] args) {
 
-        final int NUMERO_ALUMNOS = 33;
+        //final int NUMERO_ALUMNOS = 33;
 
 
         String numeroDeTelefono = "666666666";
         double totalVentas = 576.55;
         byte edad;
         edad = -0x10;
-        float monedero = 3.4E38f - 567.34f; 
+        //float monedero = 3.4E38f - 567.34f; 
         edad = (byte) (edad + 1);
-        long numEnorme = 9223372036854775807L;
+        //long numEnorme = 9223372036854775807L;
 
         boolean estaLloviendo;
 

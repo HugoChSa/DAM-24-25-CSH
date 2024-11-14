@@ -1,6 +1,6 @@
 package ud2.ejercicios;
 
-import java.util.Scanner;
+//import java.util.Scanner;
 
 /* Implementar una aplicación para calcular datos estadísticos de las edades de los
 alumnos de un centro educativo. Se introducirán datos hasta que uno de ellos sea

@@ -7,6 +7,7 @@ package ud1.trabajosclase.csh20241004;
  * El programa deberá manejar las conversiones automáticamente y mostrar el resultado al usuario. Utiliza el operador ternario para evaluar la unidad de medida introducida por el
  * usuario. El programa mostrará por pantalla el resultado con la unidad de medida adecuada.
  */
+/*
 import java.util.Scanner;
 public class EP0123 {
     public static void main(String[] args) {
@@ -18,13 +19,13 @@ public class EP0123 {
 
         Scanner sc = new Scanner(System.in);
         System.out.println("Introduce la masa de origen: ");
-        masaOrigen = sc.nextDouble();
+        masaOrigen = sc.nextDouble(); */
         
         /*byte unidadDeMedida;
         System.out.println("Introduce la medida de origen:  (1 = Kilos, 2 = Libras): ");
         unidadDeMedida = sc.nextByte();*/
     
-        char unidadDeMedida;
+/*      char unidadDeMedida;
         System.out.println("Introduce la medida de origen:  (K = Kilos, L = Libras): ");
         unidadDeMedida = sc.nextLine().charAt(0);
 
@@ -39,3 +40,4 @@ public class EP0123 {
     }
     
 }
+*/

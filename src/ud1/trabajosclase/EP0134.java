@@ -3,6 +3,8 @@ package ud1.trabajosclase;
 /*Escribe un programa que permita convertir unidades de energía entre julios (J), calorías
 (cal) y kilovatios-hora (kWh). El usuario deberá ingresar la cantidad de energía, así como la
 unidad de origen y destino */
+
+/*
 import java.util.Scanner;
 
 public class EP0134 {
@@ -31,3 +33,4 @@ public class EP0134 {
 
     
 }
+ */
