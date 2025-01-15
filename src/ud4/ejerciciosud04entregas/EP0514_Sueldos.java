@@ -1,7 +1,6 @@
 package ud4.ejerciciosud04entregas;
 
-
-
+//No me dio tiempo a mucho por que hubo que configurar lo de java, además de que lo llevaba mal preparado
 import java.util.Scanner;
 
 /*. El ayuntamiento de tu localidad te ha encargado una aplicación que ayude a
@@ -16,6 +15,7 @@ Una vez terminada la entrada de datos, muestra la siguiente información:
 ● Cuántos sueldos hay por debajo de la media. */
 
 public class EP0514_Sueldos {
+    /* 
     public static void main(String[] args) {
         int sueldoMaximo;
         int sueldoMinimo;
@@ -33,4 +33,7 @@ public class EP0514_Sueldos {
 
 
     }
+    */
+
+    //Corrección:
 }
