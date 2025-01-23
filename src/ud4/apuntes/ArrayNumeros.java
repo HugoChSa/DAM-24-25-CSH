@@ -4,6 +4,7 @@ import java.util.Scanner;
 
 public class ArrayNumeros {
     public static void main(String[] args) {
+        @SuppressWarnings("resource")
         Scanner sc = new Scanner(System.in);
         System.out.print("Introduce un número: ");
         int n = sc.nextInt();

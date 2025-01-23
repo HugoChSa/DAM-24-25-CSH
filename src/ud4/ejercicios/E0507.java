@@ -4,6 +4,7 @@ import java.util.Arrays;
 
 import ud4.ArraysUtil;
 
+@SuppressWarnings("unused")
 public class E0507 {
     static Integer[] sinRepetidos(Integer t[]) {
         Integer[] tOrdenado = t.clone();

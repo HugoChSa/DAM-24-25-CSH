@@ -48,6 +48,7 @@ public class BuscandoLetras {
 
         System.out.println(fraseAleatoria);
 
+        @SuppressWarnings("resource")
         Scanner sc = new Scanner(System.in);
         int[] posiciones;
         System.out.println("Escribe letras para comprobar su posición en la frase aleatoria:");

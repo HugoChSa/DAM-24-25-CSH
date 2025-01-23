@@ -1,48 +1,40 @@
 package ud4.ejercicios;
-
+/*s
 import java.util.Arrays;
 import java.util.Scanner;
 
 public class ArraysEstadisticas {
    
 public static void main(String[] args) {
-    double[] i = new double[0];
-    double numeros;
+    int[] i = new int[0];
+    int numeros;
 
-    System.out.print("Introduce los numeros que formaran parte del Array:");
-    Scanner sc = new Scanner(System.in);
-        numeros = sc.nextDouble();
-    while ( numeros!= -1) {
-        i = Arrays.copyOf(i, i.length + 1);
-        i[i.length - 1] = numeros;
-        
-        System.out.print("Introduce  ");
-        numeros = sc.nextDouble();
+    System.out.println("Introduce los números que formarán parte del array: ");
+ 
+    public static int suma(int[] t) {
+        int sumar = 0;
+        for (int i : t) {
+            sumar += i;
+        }
+        return sumar;
     }
+    
+    
 
 // Declaración de variables y constantes
-/*static int suma(int[] numeros) {
+static int suma(int[] numeros) {
     for suma = 0:
-    Arra
-}
-
-static int minimo(int[] numeros){
-
-}
-
-
-static int maximo(int[] numeros) {
-
-}
-
-static double mediana(int[] numeros){
-
-}
-
-static int moda(int[] numeros) {
     
 }
-*/
+static int minimo(int[] numeros){
+}
+static int maximo(int[] numeros) {
+}
+static double mediana(int[] numeros){
+}
+static int moda(int[] numeros) {
+}
+
 int[] numeros1 = {2, 4, 6, 7, 4, 7, 9, 2, 5, 6, 7};
 int[] numeros2 = {2, 4, 6, 7, 4, 9, 2, 5, 6, 7};
 // Proceso y salida
@@ -54,8 +46,7 @@ static void imprimeEstadisticas(int[] numeros) {
 System.out.println("ARRAY ORIGINAL: " + Arrays.toString(numeros));
 System.out.println("---------------------------------------------");
 System.out.println("Longitud: " + numeros.length);
-
-//System.out.println("Suma: " + suma(numeros));
+System.out.println("Suma: " + suma(numeros));
 //System.out.println("Máximo: " + maximo(numeros));
 //System.out.println("Mínimo: " + minimo(numeros));
 //System.out.println("Media: " + media(numeros));
@@ -65,4 +56,4 @@ Arrays.sort(numeros);
 System.out.println("ARRAY ORDENADO: " + Arrays.toString(numeros));
 System.out.println("---------------------------------------------\n\n");
 }
-}
+}*/

@@ -18,9 +18,6 @@ azar, con el siguiente prototipo:
 static String fraseAleatoria(String[] t)
  */
 
-import java.util.Arrays;
-import java.util.Random;
-
 public class ConceptosProgramacion {
     /* 
     static String fraseAleatoria(String[] t) {
