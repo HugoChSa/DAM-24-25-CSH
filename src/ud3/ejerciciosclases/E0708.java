@@ -24,6 +24,7 @@ import static org.junit.Assert.assertEquals;
 
 import org.junit.Test;
 
+@SuppressWarnings("unused")
 public class E0708 {
     public static void main(String[] args) {
         Sintonizador miRadio = new Sintonizador(80.5);
