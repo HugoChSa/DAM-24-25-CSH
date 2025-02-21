@@ -16,7 +16,7 @@ public class Empleado extends Persona{
     public Empleado(String nombre, int edad, String estatura, double salario) {
         this.estatura = estatura;
         this.salario = salario;        
-        super(nombre, edad);
+        //super(nombre, edad);
     }
 
     @Override

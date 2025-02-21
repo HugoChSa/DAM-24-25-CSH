@@ -1,5 +1,6 @@
 package ud5.rol;
 
+import java.util.Random;
 import java.util.Scanner;
 
 public class AppCreaPersonaje {
@@ -23,21 +24,15 @@ public class AppCreaPersonaje {
             Scanner sc = new Scanner(System.in);
             System.out.println("Nombre del personaje: ");
             nombre = sc.nextLine();
-
             System.out.println("Raza del personaje: ");
             //Raza = sc.nextLine();
             
             System.out.println("Las caracteristicas de tu personaje son: " + caracteristicasFisicas);
-
-
-
-
-            
+            System.out.println("Fuerza: " + fuerza + " | Agilidad: " + agilidad + " | Constitución: " + constitucion);
         }
 
-        public Personaje(ud5.rol.AppCreaPersonaje.Raza raza) {
-            this.Raza = raza;
-            
+        public static void main(String[] args) {
+            Personaje PersonajeCreado = new Personaje("Prueba", 1, );
         }
     
     
