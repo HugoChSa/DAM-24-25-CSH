@@ -5,6 +5,7 @@ package ud4.ejerciciosud04entregas.ejercicios20250130;
 import java.util.Scanner;
 
 public class Matriculas {
+    @SuppressWarnings("unused")
     public static void main(String[] args) {
 
         System.out.println("Ingrese la matricula: ");

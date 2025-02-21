@@ -1,10 +1,11 @@
-package ud4.stringsapuntes;
+package ud4.ejercicios;
 
 import java.util.Arrays;
 import java.util.Scanner;
 
 public class E0610 {
     public static void main(String[] args) {
+        @SuppressWarnings("resource")
         Scanner sc = new Scanner(System.in);
         System.out.println("Introduzca una frase: ");
         String frase = sc.nextLine();

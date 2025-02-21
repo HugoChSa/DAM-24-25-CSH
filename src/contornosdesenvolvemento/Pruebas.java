@@ -3,6 +3,7 @@ package contornosdesenvolvemento;
 import java.util.Scanner;
 
 public class Pruebas {
+    @SuppressWarnings("resource")
     static void contarParesImpares() {
         int contPares = 0;
         int contImpares = 0;

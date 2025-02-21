@@ -1,9 +1,9 @@
-package ud4.stringsapuntes;
-
+package ud4.ejercicios;
 import java.util.Scanner;
 
 public class E0609 {
     public static void main(String[] args) {
+        @SuppressWarnings("resource")
         Scanner sc = new Scanner(System.in);
         String frase = "";
         System.out.println("Introduzca palabras separadas por ENTER para componer una frase. \"Fin\" para terminar: ");

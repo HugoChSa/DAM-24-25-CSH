@@ -3,8 +3,9 @@ package ud5.rol;
 import java.util.Random;
 import java.util.Scanner;
 
+@SuppressWarnings("unused")
 public class AppCreaPersonaje {
-        String Nombre;
+    /*    String Nombre;
         private enum Raza {Humano, Elfo, Enano, Hobbit, Orco, Troll};
         String Raza;
         int nivel = 0;
@@ -36,6 +37,6 @@ public class AppCreaPersonaje {
         }
     
     
-    }
+    } */
   
 }

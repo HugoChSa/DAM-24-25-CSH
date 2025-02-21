@@ -1,4 +1,4 @@
-package ud4.stringsapuntes;
+package ud4.ejercicios;
 
 import java.util.Scanner;
 
@@ -6,6 +6,7 @@ public class E0608 {
     public static void main(String[] args) {
         final String PREFIJO = "Javalín, javalón";
         final String SUFIJO = "javalén, len, len";
+        @SuppressWarnings("resource")
         Scanner sc = new Scanner(System.in);
         System.out.println("Introduzca una frase normal o en dialecto: "
                 + "que comience por \"" + PREFIJO + "\""

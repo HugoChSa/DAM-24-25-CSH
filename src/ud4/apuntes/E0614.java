@@ -11,7 +11,9 @@ import java.util.Arrays;
 import java.util.Random;
 import java.util.Scanner;
 
+@SuppressWarnings("unused")
 public class E0614 {
+    @SuppressWarnings("resource")
     public static void main(String[] args) {
 
         System.out.println("Introduce una palabra: ");

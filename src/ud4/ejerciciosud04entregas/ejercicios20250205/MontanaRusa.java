@@ -5,7 +5,9 @@ import org.junit.Test;
 import java.util.Scanner;
 import java.util.Arrays;
 
+@SuppressWarnings("unused")
 public class MontanaRusa {
+    @SuppressWarnings("resource")
     public static void main(String[] args) {
         int[] alturas = new int[0];
 

@@ -2,6 +2,7 @@ package ud4.ejercicios;
 
 import javax.swing.*;
 
+@SuppressWarnings("unused")
 public class TorresPerezosas {
     public static void main(String[] args) {
         char[][] tablero1 = {

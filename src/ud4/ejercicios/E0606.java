@@ -1,9 +1,10 @@
-package ud4.stringsapuntes;
+package ud4.ejercicios;
 
 import java.util.Scanner;
 
 public class E0606 {
     public static void main(String[] args) {
+        @SuppressWarnings("resource")
         Scanner sc = new Scanner(System.in);
         System.out.println("Introduzca un nombre: ");
         String nombre = sc.nextLine();
