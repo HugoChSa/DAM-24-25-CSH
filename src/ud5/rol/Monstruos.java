@@ -10,9 +10,10 @@ public class Monstruos {
         int ataqueMonstruo;
         int defensaMonstruo;
         int velocidadMonstruo;
-        int puntosVidaMonstruo 
+        int puntosVidaMonstruo; 
         
-        if (TipoMonstruo = Orco) {
+       /*
+            if (TipoMonstruo = Orco) {
             ataqueMonstruo = random(30, 80);
             defensaMonstruo = random(30, 50);
             velocidadMonstruo = random(30, 60);
@@ -53,7 +54,8 @@ public class Monstruos {
                     throw new UnsupportedOperationException("Unimplemented method 'random'");
                 }
             
-
-
+    */
+    }
 
 }
+

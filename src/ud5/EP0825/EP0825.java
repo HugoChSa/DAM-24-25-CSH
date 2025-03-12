@@ -3,7 +3,7 @@ package ud5.EP0825;
 public class EP0825 {
 /*public class Punto extends Punto3D {
     
-}*/
+}
 public class Punto {
     int cordX1;
     int cordY1;
@@ -48,4 +48,5 @@ public class otroPunto {
         
         //double distancia = ((cordX2 - cordX1)^2 + (cordY2 - cordY1)^2) ;
     }
+}*/
 }
