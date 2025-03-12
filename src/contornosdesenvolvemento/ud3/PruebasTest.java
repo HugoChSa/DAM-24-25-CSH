@@ -1,4 +1,4 @@
-package contornosdesenvolvemento;
+package contornosdesenvolvemento.ud3;
 
 import org.junit.jupiter.api.Test;
 

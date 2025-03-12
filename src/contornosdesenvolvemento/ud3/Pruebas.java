@@ -1,4 +1,4 @@
-package contornosdesenvolvemento;
+package contornosdesenvolvemento.ud3;
 
 import static org.junit.jupiter.api.Assertions.assertTrue;
 

@@ -12,7 +12,7 @@ public class ProgPrincipal {
         Politica rosaParks = new Politica("Rosa", "Parks", 1913, "Loita polos dereitos civís e contra a segregación racial");
         Cientifica adaLovelace = new Cientifica("Ada", "Lovelace", 1815, "Primeira programadora da historia");
         // Array de Mulleres Traballadoras Destacadas
-        MullerTraballadora[] mulleres = {marieCurie, fridaKahlo, rosaParks, adaLovelace};
+       // MullerTraballadora[] mulleres = {marieCurie, fridaKahlo, rosaParks, adaLovelace};
 
         System.out.println("=== Mulleres Traballadoras Destacadas ===");
         /*

@@ -1,4 +1,4 @@
-package contornosdesenvolvemento;
+package contornosdesenvolvemento.ud3;
 
 public class MathUtils {
     public static int factorial(int n) {

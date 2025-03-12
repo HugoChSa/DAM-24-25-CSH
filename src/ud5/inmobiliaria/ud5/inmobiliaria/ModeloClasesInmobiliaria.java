@@ -6,7 +6,7 @@ public class ModeloClasesInmobiliaria {
         
     // Crea un piso en una 5a planta, de 100m2, 3 habitaciones y 2 baños en la
     //dirección “Calle Curtidoira”. Establece los precios de alquiler y de Venta.
-    Inmueble piso1 = new Piso("Calle Curtidoira", 100, 3, 2, 5);
+   /*  Inmueble piso1 = new Piso("Calle Curtidoira", 100, 3, 2, 5);
             piso1.setPrecioAlquiler(500);    
                     piso1.setPrecioVenta(200000);
                 
@@ -61,7 +61,7 @@ public class ModeloClasesInmobiliaria {
                     }
                         return setPrecioAlquiler(i);  
                         
-            */                    
+                             
         }
             
             public void setPrecioVenta(int i) {
@@ -78,7 +78,7 @@ public class ModeloClasesInmobiliaria {
     }
     
     public class Casa extends Inmueble {
-        
+     */   
     }
-
+    
 }
