@@ -22,5 +22,6 @@ public class ProgPrincipal {
         */
     
         System.out.println("=== Detalles Específicos ===");
-    }
+    } 
+    
 }
