@@ -1,4 +1,4 @@
-package praiasdegalicia;
+package ud5.praiasdegalicia;
 
 public class Praia {
     private int id;

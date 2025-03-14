@@ -86,8 +86,8 @@ public class ListarYOrdenarInmuebles {
 
         public void mostrarInmuebles(int t) {
             System.out.println("TODOS LOS INMUEBLES:");
-
-            System.out.println("Inmueble en " + " m2, " + int mCuadrados + " hab " );
+            System.out.printf("Inmueble en " );
+           // System.out.println("Inmueble en " + " m2, " + int mCuadrados + " hab " );
         }
     }
 
