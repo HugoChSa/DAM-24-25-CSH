@@ -8,7 +8,7 @@ public class AppClase {
         Praia[] praias = Util.importarPraias("praias.json");
 
         // Ordenar por método natural (id)
-        //Arrays.sort(praias);
+        Arrays.sort(praias);
 
         // muestra 
         System.out.println("\n\nPRAIAS ORDENADAS POR id");

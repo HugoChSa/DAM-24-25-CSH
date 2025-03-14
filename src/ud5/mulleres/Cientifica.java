@@ -1,9 +1,21 @@
 package ud5.mulleres;
 
-public class Cientifica {
+// Clase Cientifica
+class Cientifica extends MullerTraballadora implements IPioneira {
+    private String descubrimento;
 
-    public Cientifica(String string, String string2, int i, String string3) {
-        //TODO Auto-generated constructor stub
+    public Cientifica(String nome, String apelidos, int anoNacemento, String descubrimento) {
+        super(nome, apelidos, anoNacemento);
+        this.descubrimento = descubrimento;
     }
 
+    @Override
+    public String descricionContribucion() {
+        return nome + " " + apelidos + " foi unha científica pioneira que descubriu: " + descubrimento;
+    }
+
+    @Override
+    public String getDescubrimentoOuAporte() {
+        return descubrimento;
+    }
 }

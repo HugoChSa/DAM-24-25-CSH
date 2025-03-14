@@ -1,9 +1,21 @@
 package ud5.mulleres;
 
-public class Politica {
+// Clase Politica
+class Politica extends MullerTraballadora implements IActivista {
+    private String causa;
 
-    public Politica(String string, String string2, int i, String string3) {
-        //TODO Auto-generated constructor stub
+    public Politica(String nome, String apelidos, int anoNacemento, String causa) {
+        super(nome, apelidos, anoNacemento);
+        this.causa = causa;
     }
 
+    @Override
+    public String descricionContribucion() {
+        return nome + " " + apelidos + " foi unha política e activista destacada por: " + causa;
+    }
+
+    @Override
+    public String getCausaDefendida() {
+        return causa;
+    }
 }
