@@ -2,7 +2,7 @@ package ud5.praiasdegalicia;
 
 import java.util.Arrays;
 
-public class AppClase {
+public class AppClase {/*
     public static void main(String[] args) {
         // Carga las playas desde el fichero JSON en un array de Praias
         Praia[] praias = Util.importarPraias("praias.json");
@@ -26,5 +26,5 @@ public class AppClase {
 
         System.out.println();
 
-    }
+    }*/
 }
