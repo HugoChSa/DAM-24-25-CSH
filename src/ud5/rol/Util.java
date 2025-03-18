@@ -6,14 +6,14 @@ import java.io.IOException;
 import java.io.InputStream;
 import java.io.InputStreamReader;
 import java.net.URL;
-
+/*
 import com.google.gson.Gson;
 
 public class Util {
     /**
      * Exporta el personaje p a un fichero "personaje.json"
      * @param t
-     */
+
     static public void exportarJson(Personaje p){
         final String filename = "personaje.json";
         Gson gson = new Gson();
@@ -26,7 +26,7 @@ public class Util {
     /**
      * Devuelve un Personaje cargado desde "personaje.json" o null si hay problemas
      * @return
-     */
+
     static public Personaje importarJson(){
         final String filename = "personaje.json";
         Gson gson = new Gson();
@@ -35,7 +35,7 @@ public class Util {
         String json = readFileToString(filename);
         p = gson.fromJson(json, Personaje.class);
         /*if (p == null)
-            p = new Personaje();*/
+            p = new Personaje();
 
         return p;
     }
@@ -44,7 +44,7 @@ public class Util {
      * Crea un fichero de texto con el contenido de un String (fuente OpenAI)
      * @param str
      * @param filePath
-     */
+
     public static void writeStringToFile(String str, String filePath) {
         try {
           // Creamos un objeto FileWriter que nos permitirá escribir en el fichero
@@ -64,7 +64,7 @@ public class Util {
      * Lee y carga el contenido de un fichero de texto a un String (fuente OpenAI)
      * @param filePath
      * @return
-     */
+     *
     public static String readFileToString(String filePath) {
         StringBuilder fileContent = new StringBuilder();
         try {
@@ -110,4 +110,4 @@ public class Util {
             return "";
         }
     }    
-}
+} */

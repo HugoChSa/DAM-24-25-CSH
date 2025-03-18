@@ -1,5 +1,5 @@
 package ud5.rol;
-
+/*
 import java.util.Scanner;
 
 import ud5.rol.Personaje.Raza;
@@ -58,4 +58,4 @@ public class AppCombateSingular {
             System.out.println(" => " + pj2 + " esquiva o para el ataque");
     }
 
-}
+}*/
