@@ -4,7 +4,7 @@ import java.util.Arrays;
 import java.util.Scanner;
 
 import ud5.rol.Personaje.Raza;
-
+/*
 public class AppCreaPersonaje {
     public static void main(String[] args) throws Exception {
         System.out.println("JUEGO DE ROL: Creación de Personaje");
@@ -55,7 +55,7 @@ public class AppCreaPersonaje {
                     System.out.println(
                             "Error!! La raza debe ser una de las siguientes: " + Arrays.toString(Raza.values()));
                 }
-            case 1: /* .. */
+            case 1: /* ..
                 System.out.println("Nombre: ");
                 String nombre = sc.nextLine();
                 break;
@@ -71,3 +71,4 @@ public class AppCreaPersonaje {
 
     }
 }
+            */

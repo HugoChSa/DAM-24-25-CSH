@@ -1,5 +1,5 @@
 package ud5.rol;
-
+/*
 import ud5.rol.Monstruos.Monstruo.TipoMonstruo;
 import ud5.rol.Personaje.Raza;
 
@@ -12,7 +12,7 @@ public class Monstruos {
         int velocidadMonstruo;
         int puntosVidaMonstruo; 
         
-       /*
+
             if (TipoMonstruo = Orco) {
             ataqueMonstruo = random(30, 80);
             defensaMonstruo = random(30, 50);
@@ -54,8 +54,8 @@ public class Monstruos {
                     throw new UnsupportedOperationException("Unimplemented method 'random'");
                 }
             
-    */
+
     }
 
-}
+}*/
 
