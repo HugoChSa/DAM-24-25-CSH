@@ -1,10 +1,11 @@
 package ud6.apuntesgenericos;
 
 import java.util.Arrays;
+import java.util.Comparator;
 
 import ud5.apuntesherencia.Persona;
 import ud5.rol.Personaje;
-
+/*
 public class ContenedorLista<T> implements Pila<T>, Cola<T> {
     T[] objetos;
 
@@ -45,19 +46,27 @@ public class ContenedorLista<T> implements Pila<T>, Cola<T> {
         return valor;
     }
 
+
     void ordenar() {
         /*
          * Generará una excepción si T no es Comparable
          * "T cannot be cast to class java.lang.Comparable"
          * Se puede arreglar indicando que T debe implementar Comparable
          * "T extends Comparable"
-         */
+         */ /*
         Arrays.sort(objetos);
     }
 
     @Override
     public String toString() {
         return Arrays.toString(objetos);
+    }
+
+    T get(int indice) {
+        return objetos[indice];
+    }
+    void ordenar(Comparator<T> c) {
+
     }
 
     public static void main(String[] args) {
@@ -68,7 +77,9 @@ public class ContenedorLista<T> implements Pila<T>, Cola<T> {
         lista.insertarAlPrincipio(4);
         System.out.println(lista);
         lista.ordenar();
-        System.out.println(lista);        
+        System.out.println(lista);
+        lista.ordenar(new Comparator<Integer>().naturalOrder);
+
         System.out.println(lista.extraerDelPrincipio());
         System.out.println(lista);
         System.out.println(lista.extraerDelFinal());
@@ -98,9 +109,11 @@ public class ContenedorLista<T> implements Pila<T>, Cola<T> {
          * p.insertarAlFinal(new Personaje("Pepe"));
          * p.insertarAlFinal(new Personaje("Maria"));
          * p.ordenar();
-         */
+         *//*
 
     }
+
+
 
     @Override
     public void apilar(T e) {
@@ -122,4 +135,4 @@ public class ContenedorLista<T> implements Pila<T>, Cola<T> {
         return extraerDelPrincipio();
     }
 
-}
+}*/

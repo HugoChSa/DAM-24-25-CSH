@@ -1,11 +1,10 @@
-package ud6.apuntesgenericos;
+package ud6;
 
-import java.util.Arrays;
 import java.util.Scanner;
 
 public class E1204<T> {
 
-
+/*
     public static void main(String[] args) {
     int num;
     Scanner entrada = new Scanner(System.in);

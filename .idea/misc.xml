@@ -4,7 +4,11 @@
     <option name="enabled" value="true" />
     <option name="wasEnabledAtLeastOnce" value="true" />
   </component>
+<<<<<<< HEAD
   <component name="ProjectRootManager" version="2" languageLevel="JDK_21_PREVIEW" project-jdk-name="21" project-jdk-type="JavaSDK">
+=======
+  <component name="ProjectRootManager" version="2" languageLevel="JDK_21" default="true" project-jdk-name="21" project-jdk-type="JavaSDK">
+>>>>>>> 743be75507a6238f1800dededd6fffdcab04de3e
     <output url="file://$PROJECT_DIR$/out" />
   </component>
 </project>
