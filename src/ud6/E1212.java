@@ -1,4 +1,4 @@
-package ud6;
+/*package ud6;
 
 import java.util.Set;
 import java.util.TreeSet;
@@ -32,3 +32,4 @@ public class E1212 {
 
     }
 }
+ */

@@ -7,6 +7,7 @@ class MathUtilsTest {
     @Test
     void factorialExcepcion() {
         try {
+            @SuppressWarnings("unused")
             int res = MathUtils.factorial(-1);
             fail("FALLO: n < 0 debería generar una excepción");
         } catch (Exception e) {

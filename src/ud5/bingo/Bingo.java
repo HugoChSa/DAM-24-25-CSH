@@ -22,7 +22,7 @@ El programa saca números sucesivamente sin interrupción del usuario. Informa d
 
 Implementa todo en un único fichero de nombre Bingo.java
 Considera usar clases internas.
-*/
+
 
 import java.util.Random;
 import java.util.Scanner;
@@ -126,3 +126,4 @@ class Carton {
 
     }
 }
+*/

@@ -6,6 +6,7 @@ import java.util.Scanner;
 
 import org.junit.jupiter.api.Test;
 
+@SuppressWarnings("unused")
 public class Pruebas {
 
     public boolean esNumeroPerfecto(int num) {
@@ -56,6 +57,7 @@ public class Pruebas {
         // NODO 1
         int contPares = 0;
         int contImpares = 0;
+        @SuppressWarnings("resource")
         Scanner sc = new Scanner(System.in);
         System.out.print("Ingrese 10 números: ");
 

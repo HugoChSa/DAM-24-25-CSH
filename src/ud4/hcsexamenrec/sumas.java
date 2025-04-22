@@ -1,8 +1,7 @@
 package ud4.hcsexamenrec;
 // Hugo Chan Saball - DAM 1 - Examen de recuperación UD4 Programación
 // 27/03/2025
-
-import java.util.Scanner;
+/*import java.util.Scanner;
 
 public class sumas {
     public static void main(String[] args) {
@@ -67,3 +66,4 @@ public class sumas {
 
     }
 }
+ */

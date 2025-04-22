@@ -73,6 +73,7 @@ public class BuscaTesouro {
             System.out.printf("Has perdido!! Has agotado el máximo de intentos.%n%n");
     }
 
+    @SuppressWarnings("resource")
     static int leerEntero(int min, int max) {
         if (min > max) {
             throw new IllegalArgumentException("El valor mínimo no puede ser mayor que el máximo.");

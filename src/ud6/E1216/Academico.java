@@ -1,4 +1,4 @@
-package ud6.E1216;
+package ud6.e1216;
 
 import java.io.FileReader;
 import java.util.HashMap;

@@ -1,10 +1,10 @@
 package ud6;
-
+/*
 import java.util.Scanner;
 
 public class E1204<T> {
 
-/*
+
     public static void main(String[] args) {
     int num;
     Scanner entrada = new Scanner(System.in);
@@ -45,5 +45,5 @@ public class E1204<T> {
             objetos[0] = (T) nuevo;
     }
 
-}*/
-}
+}}*/
+

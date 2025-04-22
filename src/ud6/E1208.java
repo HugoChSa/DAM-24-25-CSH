@@ -1,5 +1,5 @@
 package ud6;
-
+/* 
 import java.util.ArrayList;
 import java.util.Collection;
 
@@ -11,3 +11,4 @@ public class E1208 {
 
     }
 }
+*/
