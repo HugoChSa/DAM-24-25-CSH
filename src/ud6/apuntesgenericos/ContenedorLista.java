@@ -5,7 +5,7 @@ import java.util.Comparator;
 
 import ud5.apuntesherencia.Persona;
 import ud5.rol.Personaje;
-/*
+
 public class ContenedorLista<T> implements Pila<T>, Cola<T> {
     T[] objetos;
 
@@ -15,7 +15,7 @@ public class ContenedorLista<T> implements Pila<T>, Cola<T> {
 
     void insertarAlPrincipio(T nuevo) {
         objetos = Arrays.copyOf(objetos, objetos.length + 1);
-        for (int i = objetos.length - 1; i > 0 ; i--) {
+        for (int i = objetos.length - 1; i > 0; i--) {
             objetos[i] = objetos[i - 1];
         }
         objetos[0] = nuevo;
@@ -46,14 +46,13 @@ public class ContenedorLista<T> implements Pila<T>, Cola<T> {
         return valor;
     }
 
-
     void ordenar() {
         /*
          * Generará una excepción si T no es Comparable
          * "T cannot be cast to class java.lang.Comparable"
          * Se puede arreglar indicando que T debe implementar Comparable
          * "T extends Comparable"
-         */ /*
+         */
         Arrays.sort(objetos);
     }
 
@@ -65,8 +64,9 @@ public class ContenedorLista<T> implements Pila<T>, Cola<T> {
     T get(int indice) {
         return objetos[indice];
     }
-    void ordenar(Comparator<T> c) {
 
+    void ordenar(Comparator<T> c) {
+        Arrays.sort(objetos, c);
     }
 
     public static void main(String[] args) {
@@ -76,9 +76,14 @@ public class ContenedorLista<T> implements Pila<T>, Cola<T> {
         lista.insertarAlFinal(3);
         lista.insertarAlPrincipio(4);
         System.out.println(lista);
+        // Ordenar descendentemente
+        Comparator<Integer> comp = Comparator.naturalOrder();
+        lista.ordenar(comp.reversed());
+        System.out.println(lista);
+
+        // Ordenar ascendentemente
         lista.ordenar();
         System.out.println(lista);
-        lista.ordenar(new Comparator<Integer>().naturalOrder);
 
         System.out.println(lista.extraerDelPrincipio());
         System.out.println(lista);
@@ -109,11 +114,9 @@ public class ContenedorLista<T> implements Pila<T>, Cola<T> {
          * p.insertarAlFinal(new Personaje("Pepe"));
          * p.insertarAlFinal(new Personaje("Maria"));
          * p.ordenar();
-         *//*
+         */
 
     }
-
-
 
     @Override
     public void apilar(T e) {
@@ -135,4 +138,4 @@ public class ContenedorLista<T> implements Pila<T>, Cola<T> {
         return extraerDelPrincipio();
     }
 
-}*/
+}
