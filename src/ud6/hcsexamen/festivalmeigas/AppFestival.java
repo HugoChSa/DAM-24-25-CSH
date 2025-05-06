@@ -1,3 +1,4 @@
+/*Hugo Chan Saball - Examen UD6 Programación*/
 package ud6.hcsexamen.festivalmeigas;
 
 import java.util.ArrayList;
