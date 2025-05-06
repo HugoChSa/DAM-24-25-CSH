@@ -1,4 +1,4 @@
-package contornosdesenvolvemento.ud3.examen20250326.discountsystem;
+package contornos.ud3.examen20250326.discountsystem;
 //Hugo Chan Saball - DAM1-Contornos de Desenvolvemento 2024-25
 //Examen 26/03/2025
 import org.junit.Test;
