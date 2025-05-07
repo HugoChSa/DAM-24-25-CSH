@@ -1,4 +1,8 @@
+<<<<<<< HEAD:src/contornosdesenvolvemento/ud3/BonusAssigner.java
 package contornosdesenvolvemento.ud3;
+=======
+package contornos.ud3;
+>>>>>>> 700ec07c82d8975f05daffd19f59fbe6921fef27:src/contornos/ud3/BonusAssigner.java
 
 import org.junit.Test;
 

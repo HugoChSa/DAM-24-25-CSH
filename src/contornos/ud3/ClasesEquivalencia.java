@@ -1,4 +1,4 @@
-package contornosdesenvolvemento.ud3;
+package contornos.ud3;
 
 public class ClasesEquivalencia {
     
