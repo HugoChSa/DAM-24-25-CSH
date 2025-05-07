@@ -1,4 +1,8 @@
+/*Hugo Chan Saball - Examen UD6 Programación*/
+
+
 package ud6.hcsexamen.festivalmeigas;
+
 
 import java.util.ArrayList;
 import java.util.Arrays;
@@ -98,4 +102,8 @@ public class Meiga {
         meigasExemplo[0].lanzarFeitizos();
     }
 
+    public int lanzarFeitizos() {
+
+        return 0;
+    }
 }

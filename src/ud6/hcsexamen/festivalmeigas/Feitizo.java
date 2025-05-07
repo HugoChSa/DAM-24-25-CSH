@@ -1,3 +1,7 @@
+/*Hugo Chan Saball - Examen UD6 Programación*/
+
+//??
+
 package ud6.hcsexamen.festivalmeigas;
 
 import java.util.Arrays;
@@ -18,6 +22,7 @@ public class Feitizo {
         this.ingredientes = List.of(ingredientes);
         this.dificultade = dificultade;
     }
+
 
     // Otros métodos
     public static Collection<String> ingredientesUnicos(Collection<Feitizo> feitizos) {
@@ -86,5 +91,6 @@ public class Feitizo {
             System.out.println(feitizo);
         }
     }
+
 
 }
