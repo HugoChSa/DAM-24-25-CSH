@@ -47,7 +47,7 @@ public class Conversor extends Application {
             n1 = Integer.parseInt(txtNum1.getText());
             n2 = Integer.parseInt(txtNum2.getText());
             resultado = n1 * (n2*Euro)/Dolar;
-            lblResultado.setText(String.valueOf(resultado + " €"));
+            lblResultado.setText(String.valueOf(resultado + " $"));
         } catch (Exception ex) {
             lblResultado.setText("ERROR: Algún operando no es nu número");
         }
