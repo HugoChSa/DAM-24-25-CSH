@@ -1,15 +1,18 @@
-import javafx.stage.Stage;
+package ud7.apuntesjavafx;
+
 import javafx.application.Application;
 import javafx.scene.Scene;
 import javafx.scene.control.Button;
+import javafx.scene.control.DatePicker;
 import javafx.scene.control.Label;
 import javafx.scene.control.TextField;
 import javafx.scene.layout.VBox;
+import javafx.stage.Stage;
 
-
-public class Ejemplo3 extends Application {
+public class Ejemplo extends Application {
     TextField txtNum1 = new TextField("Escribe un número...");
     TextField txtNum2 = new TextField("Otro número...");
+    DatePicker datePicker = new DatePicker();
     Button btnSumar = new Button("Sumar");
     Label lblResultado = new Label();
 
@@ -22,7 +25,9 @@ public class Ejemplo3 extends Application {
         txtNum1.setOnKeyTyped(e -> sumar());
         txtNum2.setOnKeyTyped(e -> sumar());
 
-        btnSumar.setOnAction(e -> sumar());
+        btnSumar.setOnAction(e -> {
+            datePicker.show();
+        });
 
         VBox vbox = new VBox(txtNum1, txtNum2, btnSumar, lblResultado);
 
