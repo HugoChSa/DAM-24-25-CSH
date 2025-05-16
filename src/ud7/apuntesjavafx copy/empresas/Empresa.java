@@ -1,4 +1,4 @@
-package ud7.apuntesjavafx.empresas;
+package empresas;
 
 public class Empresa {
     private int id;

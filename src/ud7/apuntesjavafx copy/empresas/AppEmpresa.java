@@ -1,4 +1,4 @@
-package ud7.apuntesjavafx.empresas;
+package empresas;
 
 import java.util.ArrayList;
 import java.util.List;
