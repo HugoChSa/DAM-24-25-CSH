@@ -1,4 +1,4 @@
-package ud7.apuntesjavafx.login;
+package login;
 
 import javafx.event.ActionEvent;
 import javafx.fxml.FXML;

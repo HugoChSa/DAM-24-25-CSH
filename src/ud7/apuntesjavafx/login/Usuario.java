@@ -1,4 +1,4 @@
-package ud7.apuntesjavafx.login;
+package login;
 
 public class Usuario {
     private String username;
