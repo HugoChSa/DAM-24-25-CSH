@@ -1,0 +1,1 @@
+tagSearchIndex = [{"l":"Clase de empregados, que se usa para crear e ler empregados desde unha base de datos","h":"class contornos.ud4.doc.Empregado","d":"Section","u":"contornos/ud4/doc/Empregado.html#clase-de-empregados-que-se-usa-para-crear-e-ler-empregados-desde-unha-base-de-datos-heading"}];updateSearchResults();
