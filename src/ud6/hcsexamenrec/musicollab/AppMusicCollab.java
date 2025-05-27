@@ -1,9 +1,17 @@
-package ud6.xxxexamenrec.musicollab;
+//Hugo Chan Saball - UD06 - Examen Práctico - Recuperación
 
+//?
+package ud6.hcsexamenrec.musicollab;
+
+
+import java.util.ArrayList;
+import java.util.Arrays;
+import java.util.HashSet;
+import java.util.List;
 
 public class AppMusicCollab {
 
-    public static void main(String[] args) {
+
 
         // Canciones de ejemplo
         List<Cancion> canciones = Arrays.asList(
@@ -24,7 +32,10 @@ public class AppMusicCollab {
                 new Cancion("Hotel California", "Eagles", "Rock",
                         List.of("voz", "guitarra", "bajo", "batería")));
 
-        // Músicos de ejemplo
+
+
+
+    // Músicos de ejemplo
         List<Musico> musicos = new ArrayList<>(Arrays.asList(
                 new Musico("Ana López", "BassQueen", List.of("bajo", "voz"),
                         new HashSet<>(Arrays.asList(canciones.get(0), canciones.get(1), canciones.get(5)))),

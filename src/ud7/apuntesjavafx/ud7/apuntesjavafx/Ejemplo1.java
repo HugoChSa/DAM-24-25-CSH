@@ -1,4 +1,4 @@
-
+/*
 import javafx.application.Application;
 import javafx.scene.Scene;
 import javafx.scene.control.Button;
@@ -31,3 +31,4 @@ public class Ejemplo1 extends Application {
         stage.show();
     }
 }
+*/

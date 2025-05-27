@@ -1,6 +1,27 @@
-package ud6.xxxexamenrec.musicollab;
+//Hugo Chan Saball - UD06 - Examen Práctico - Recuperación
 
-public class Cancion {
+//?
+package ud6.hcsexamenrec.musicollab;
+
+import java.util.List;
+import java.util.Arrays;
+import  java.util.ArrayList;
+import  java.util.Collections;
+
+public class Cancion extends AppMusicCollab{
+
+
+    private final String nombre;
+    private final String autor;
+    private final String estiloMusical;
+    List<String> InstrumentosRequeridos;
+
+    public Cancion(String nombre, String autor, String estiloMusical, List<String> InstrumentosRequeridos) {
+        this.nombre = nombre;
+        this.autor = autor;
+        this.estiloMusical = estiloMusical;
+        this.InstrumentosRequeridos = List.of(String.valueOf(InstrumentosRequeridos));
+    }
 
 
     public static void main(String[] args) {
@@ -22,8 +43,8 @@ public class Cancion {
                         List.of("voz", "piano", "batería")),
                 new Cancion("Hotel California", "Eagles", "Rock",
                         List.of("voz", "guitarra", "bajo", "batería")));
-        
-        // Ordenar canciones por nombre                        
+
+        // Ordenar canciones por nombre
         Collections.sort(canciones);
         System.out.println("\nCanciones ordenadas por nombre:");
         System.out.println("===============================\n");
@@ -48,3 +69,5 @@ public class Cancion {
     }
 
 }
+
+
